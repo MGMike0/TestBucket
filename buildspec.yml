@@ -15,7 +15,7 @@ phases:
       - echo Testing...
       - npm run cy:run
       - echo Building...
-      - npm build
+      - npm run build
       - ls
 artifacts:
   files:
