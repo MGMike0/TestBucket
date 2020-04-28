@@ -16,7 +16,6 @@ phases:
       - npm run cy:run
       - echo Building...
       - npm run build
-      - ls
 artifacts:
   files:
     - "**/*"
